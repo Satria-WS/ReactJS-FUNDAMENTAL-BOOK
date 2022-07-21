@@ -1,5 +1,5 @@
 {
-    "person": {
+    "human": {
         "name": "Alice",
         "country": "Austria",
         "tasks": ["develop", "design", "test"],

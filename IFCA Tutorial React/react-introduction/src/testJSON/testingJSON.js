@@ -1,6 +1,8 @@
+//using nodemon for test
 var someObject = require("./example.json");
 var testPoke = require("../pokemonAPI/testPokemon.json");
 
 //console.log("hello");
 //console.log(someObject);
-console.log(testPoke.abilities[0]);
+const limberPokemon = testPoke.abilities[0];
+console.log(limberPokemon.ability.name);
